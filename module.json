@@ -1,0 +1,18 @@
+﻿{
+  "id": "tickets",
+  "name": "Tickets",
+  "version": "1.0.0",
+  "entrypoint": "cog",
+  "description": "Ticket creation and closing module for R4Bot.",
+  "author": "Rarmash",
+  "min_core_version": "2.0",
+  "required_settings": [
+    "accent_color",
+    "admin_role_id",
+    "mod_role_id"
+  ],
+  "required_services": [
+    "config",
+    "module_config"
+  ]
+}
